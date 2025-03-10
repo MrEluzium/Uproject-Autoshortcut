@@ -45,7 +45,7 @@ echo ^</Settings^>
 echo ^<Actions Context="Author"^>
 echo ^<Exec^>
 echo ^<Command^>cmd.exe^</Command^>
-echo ^<Arguments^>/c start "" /MIN "%BATCH_FILE%"^</Arguments^>
+echo ^<Arguments^>/c "%BATCH_FILE%"^</Arguments^>
 echo ^</Exec^>
 echo ^</Actions^>
 echo ^</Task^>

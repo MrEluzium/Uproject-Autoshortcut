@@ -1,6 +1,6 @@
 @echo off
 
-set ROOT_DIR="F:\Unreal Projects"
+set ROOT_DIR="F:\UnrealProjects"
 set FOLDER_NAME="Unreal Projects"
 
 setlocal
@@ -15,6 +15,6 @@ if not exist "%SCRIPT_DIR%.venv\" (
     deactivate
 )
 
-start /B "" "%SCRIPT_DIR%.venv\Scripts\pythonw.exe" "%SCRIPT_DIR%uproject-autoshortcut.py" --root %ROOT_DIR% --folder %FOLDER_NAME% --daemon
+start "" /B "%SCRIPT_DIR%.venv\Scripts\pythonw.exe" "%SCRIPT_DIR%uproject-autoshortcut.py" --root %ROOT_DIR% --folder %FOLDER_NAME% --daemon
 echo Daemon started in background (see shortcut_manager.log for details)
 endlocal

@@ -1,6 +1,6 @@
 @echo off
 
-set ROOT_DIR="F:\Unreal Projects"
+set ROOT_DIR="F:\UnrealProjects"
 set FOLDER_NAME="Unreal Projects"
 
 setlocal
